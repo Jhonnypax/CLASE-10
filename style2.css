@@ -1,0 +1,212 @@
+*{margin: 0; padding: 0;}
+
+@font-face{
+font-family: 'Roboto';
+src: url(Roboto-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url(Inter-Bold.ttf)
+}
+
+body{
+    width: 1100px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+h3{
+    font-family: 'Inter';
+}
+
+.bar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    background-color: #1CD1B0;
+    padding-left: 20px;
+}
+
+.elementos{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    padding: 10px;
+    word-spacing: 8px;
+    padding-left: 920px;
+}
+
+#unir{
+    display: flex;
+    background-color: #00669F;
+}
+
+.titulologo{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    padding-top: 25px;
+}
+
+.back{
+    position: relative;
+    width: 750px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+.titulo{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    left: 650px;
+    top: 190px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 72px;
+}
+
+.agregar{
+    position: absolute;
+    text-align: center;
+    font-family: 'Inter';
+    left: 550px;
+    top: 260px;
+    color: white;
+}
+
+#nombre{
+    position: absolute;
+    color: white;
+    border: none;
+    top: 300px;
+    left: 500px;
+}
+
+.nombre{
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+#especie{
+    position: absolute;
+    color: white;
+    border: none;
+    top: 300px;
+    left: 770px;
+}
+
+.especie{
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.fecha{
+    position: absolute;
+    color: white;
+    border: none;
+    top: 410px;
+    left: 500px;
+}
+
+#fecha{
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+#archivo{
+    position: absolute;
+    color: white;
+    border: none;
+    top: 410px;
+    left: 770px;
+}
+
+#comentario{
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border: none;
+    width: 240px;
+    height: 220px;
+    top: 530px;
+    left: 500px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.alinear{
+display: flex;
+}
+
+.opciones{
+    position: absolute;
+    border: none;
+    top: 530px;
+    left: 770px;
+    color: white;
+    line-height: 27px;
+    
+}
+
+hr{
+    position: absolute;
+    color: #CCCCCC;
+    top: 675px;
+    left: 770px;
+    width: 250px;
+}
+
+.tipo{
+    position: absolute;
+    border: none;
+    top: 688px;
+    left: 770px;
+    color: white;
+    line-height: 27px;    
+}
+
+.añadir{
+    position:absolute;
+    font-family: 'Inter';
+    font-size: 20px;
+    left: 570px;
+    top: 785px;
+    padding: 20px 140px;
+    background-color: #1CD1B0;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+footer{
+    font-weight: normal;
+    background-color: #00669F;
+    color: white;
+    margin-top: 150px;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-align: center;
+}
